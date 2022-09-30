@@ -1,0 +1,14 @@
+.About {
+    text-align: center;
+}
+
+.About h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.About p{
+    max-width: 500px;
+    margin: 0 auto 1.5em;
+    line-height: 1.4;
+}
