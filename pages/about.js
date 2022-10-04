@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className={styles.About}>
             <h1>About the project</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>This is my first next.js project. I will be publishing it on github and will deploy it to versel. This content is purely for study purposes.</p>
             <Image 
             src="/images/charizard.png" 
             width="300" 
