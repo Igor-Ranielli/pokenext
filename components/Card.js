@@ -2,12 +2,12 @@ import Image from 'next/image'
 
 import Link from 'next/link'
 
-import styles from '../../styles/Card.module.css'
+import styles from '../styles/Card.module.css'
 
 export default function Card({pokemon}) {
     return (
         <div className={styles.card}>
-            <Image 
+            <Image className={styles.image}
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.id}.png`}
             width="120"
             height="120"

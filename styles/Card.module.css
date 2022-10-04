@@ -12,6 +12,11 @@
     color: #000;
 }
 
+.card .image{
+    border-radius: 33%;
+    background-color: #000;
+}
+
 .card .id{
     margin: 1em 0;
     background-color: #e33d33;
